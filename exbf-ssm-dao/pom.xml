@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>exbf-ssm-template</artifactId>
+        <groupId>cn.exboyfriend</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>exbf-ssm-dao</artifactId>
+
+    <properties>
+        <spring.version>4.2.5.RELEASE</spring.version>
+        <druid.version>1.0.18</druid.version>
+        <slf4j.version>1.7.19</slf4j.version>
+        <mybatis.version>3.3.1</mybatis.version>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>cn.exboyfriend</groupId>
+            <artifactId>exbf-ssm-entity</artifactId>
+            <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>${slf4j.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <scope>compile</scope>
+            <version>${slf4j.version}</version>
+        </dependency>
+    </dependencies>
+
+
+</project>
